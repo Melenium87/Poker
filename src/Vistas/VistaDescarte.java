@@ -36,6 +36,9 @@ public class VistaDescarte extends javax.swing.JFrame implements VerCartas,Obser
         imgCarta3.setIcon(new javax.swing.ImageIcon(direcciones.get(2)));
         imgCarta4.setIcon(new javax.swing.ImageIcon(direcciones.get(3)));
         imgCarta5.setIcon(new javax.swing.ImageIcon(direcciones.get(4)));
+        jLabel2.setIcon(new javax.swing.ImageIcon(direcciones.get(5)));
+        jLabel3.setIcon(new javax.swing.ImageIcon(direcciones.get(5)));
+
     }
 
     public VistaDescarte() {

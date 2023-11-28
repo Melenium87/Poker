@@ -112,10 +112,6 @@ public class Jugador implements DejarVerCartas{
         fichasInicioRonda=fichas;
 
     }
-
-    public ArrayList<Carta> mostrarCartas(){
-        return cartas;
-    }
     public ArrayList<String> mostrarImagenesDeCartas(){
         ArrayList<String> direcciones=new ArrayList<String>();
         String direcicionBase="D:/Uni/Poker/Poker/Images/";
@@ -127,10 +123,11 @@ public class Jugador implements DejarVerCartas{
             dir.append("" + carta.getTipo() + "-" + carta.getValor() + formato);
             direccionFinal = dir.toString();
             direcciones.add(direccionFinal);
-            direccionFinal = null;
             dir = new StringBuilder();
             dir.append(direcicionBase);
         }
+        direccionFinal=direcicionBase+"R.jpg";
+        direcciones.add(direccionFinal);
         return direcciones;
     }
     public void verCartas(){

@@ -152,6 +152,7 @@ public class Ronda {
                 contador=1;
                 etapaDeDescarte=true;
                 etapaDeApuestas=false;
+                hayApuesta=false;
                 notificador.notificarEtapa(etapaDeDescarte);
                 notificador.notificarApuestaMinimaActual(apuestaActual);
                 notificador.notificar("------------------------------------------------------\nComienza la etapa de descartes\n------------------------------------------------------\n\n");
