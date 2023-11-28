@@ -114,7 +114,7 @@ public class Jugador implements DejarVerCartas{
     }
     public ArrayList<String> mostrarImagenesDeCartas(){
         ArrayList<String> direcciones=new ArrayList<String>();
-        String direcicionBase="D:/Uni/Poker/Poker/Images/";
+        String direcicionBase="C:/Users/ciro_/OneDrive/Escritorio/Poker/Poker/Images/";
         String formato=".png";
         StringBuilder dir=new StringBuilder();
         String direccionFinal;
